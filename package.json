@@ -1,0 +1,16 @@
+{
+  "name": "premature-optimizer",
+  "version": "1.0.0",
+  "description": "remove unused css, compress HTML for extreme static site pedantry",
+  "main": "index.js",
+  "author": "Tom MacWright",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html-minifier": "^3.5.19",
+    "purify-css": "^1.2.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  }
+}
