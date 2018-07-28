@@ -5,9 +5,14 @@
   "main": "index.js",
   "author": "Tom MacWright",
   "license": "MIT",
+  "bin": {
+    "premature-optimizer": "index.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "glob": "^7.1.2",
     "html-minifier": "^3.5.19",
+    "minimist": "^1.2.0",
     "purify-css": "^1.2.5"
   },
   "devDependencies": {
